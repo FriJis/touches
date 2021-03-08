@@ -1,0 +1,22 @@
+{
+  "name": "toucher",
+  "version": "1.0.0",
+  "description": "toucher library",
+  "main": "index.js",
+  "scripts": {
+    "prod": "webpack --mode=production",
+    "serve": "webpack serve"
+  },
+  "keywords": [
+    "touchscreen",
+    "js",
+    "browser"
+  ],
+  "author": "FriJ <egorik580@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
